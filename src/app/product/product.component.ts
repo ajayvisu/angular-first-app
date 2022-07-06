@@ -12,4 +12,11 @@ export class ProductComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  users = [
+    {name:'raj', age:'10', gender:'male'},
+    {name:'raja', age:'20', role:'male'},
+    {name:'sana', age:'25', role:'female'},
+    {name:'jsona', age:'23', role:'female'},
+  ]
+
 }

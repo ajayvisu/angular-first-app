@@ -5,16 +5,20 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
 import { ProductComponent } from './product/product.component';
+import { AppRoutingModule } from './app-routing.module';
+import { ProductlistComponent } from './productlist/productlist.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     HeaderComponent,
-    ProductComponent
+    ProductComponent,
+    ProductlistComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
