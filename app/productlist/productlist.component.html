@@ -1,0 +1,12 @@
+<p>productlist works!</p>
+
+<ul>
+  <h4>Name:</h4>
+  <li>{{ list.productname }}</li>
+  <h4>price:</h4>
+  <li>{{ list.price }}</li>
+  <h4>Quantity:</h4>
+  <li [ngStyle]="{ color: 'green' }">{{ list.quantity }}</li>
+</ul>
+<!-- <button (click)="increase()">+add</button> -->
+<button (click)="list.addquantity()">+add</button>
