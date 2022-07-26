@@ -1,14 +1,13 @@
 <p>product works!</p>
-<div *ngFor="let user of users">
-    <div [ngSwitch]="user.status">
-        <li *ngSwitchCase="'Active'">
-            {{user.name}} is active
-        </li>
-        <li *ngSwitchCase="'Active'">
-            {{user.name}} is inactive
-        </li>
-        <li *ngSwitchDefault>
-            {{user.name}}
-        </li>
-    </div>
-</div>
+<app-productlist></app-productlist>
+
+
+<!-- <div *ngFor="let user of users">
+  <div [ngSwitch]="user.status">
+    <li *ngSwitchCase="'Active'">{{ user.name }} is active</li>
+    <li *ngSwitchCase="'Active'">{{ user.name }} is inactive</li>
+    <li *ngSwitchDefault>
+      {{ user.name }}
+    </li>
+  </div>
+</div> -->

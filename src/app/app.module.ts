@@ -7,6 +7,10 @@ import { HeaderComponent } from './header/header.component';
 import { ProductComponent } from './product/product.component';
 import { AppRoutingModule } from './app-routing.module';
 import { ProductlistComponent } from './productlist/productlist.component';
+import { LeftComponent } from './left/left.component';
+import { RightComponent } from './right/right.component';
+import { MiddleComponent } from './middle/middle.component';
+import { PracticeComponent } from './practice/practice.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +18,11 @@ import { ProductlistComponent } from './productlist/productlist.component';
     HomeComponent,
     HeaderComponent,
     ProductComponent,
-    ProductlistComponent
+    ProductlistComponent,
+    LeftComponent,
+    RightComponent,
+    MiddleComponent,
+    PracticeComponent
   ],
   imports: [
     BrowserModule,
